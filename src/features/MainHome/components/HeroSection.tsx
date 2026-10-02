@@ -139,20 +139,6 @@ export default function HeroSection() {
                 sizes="(max-width: 900px) 100vw, 55vw"
                 style={{ objectFit: "cover" }}
               />
-
-              <Chip
-                label="인테리어 샘플 이미지"
-                size="small"
-                sx={{
-                  position: "absolute",
-                  right: 16,
-                  bottom: 16,
-                  bgcolor: "rgba(22, 36, 29, 0.65)",
-                  color: "white",
-                  fontSize: 10,
-                  backdropFilter: "blur(8px)",
-                }}
-              />
             </Box>
 
             <Paper

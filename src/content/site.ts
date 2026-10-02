@@ -23,7 +23,7 @@ export const navigation = [
 
 export const images = {
   hero: {
-    src: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1800&q=85",
+    src: "/밝은 톤의 거실 인테리어 샘플.avif",
     alt: "밝은 톤의 거실 인테리어 샘플",
   },
   gallery: [
@@ -32,27 +32,27 @@ export const images = {
       title: "빛이 머무는 거실",
       category: "LIVING ROOM",
       description: "차분한 색감으로 완성하는 편안한 분위기",
-      src: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1000&q=85",
+      src: "밝고 차분한 거실 인테리어 샘플.avif",
       alt: "밝고 차분한 거실 인테리어 샘플",
-      isSample: true,
+      isSample: false,
     },
     {
       id: "bedroom",
       title: "하루를 쉬어가는 침실",
       category: "BEDROOM",
       description: "부드러운 톤으로 만드는 나만의 휴식 공간",
-      src: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1000&q=85",
+      src: "따뜻한 분위기의 침실 인테리어 샘플.avif",
       alt: "따뜻한 분위기의 침실 인테리어 샘플",
-      isSample: true,
+      isSample: false,
     },
     {
       id: "detail",
       title: "취향이 담긴 공간",
       category: "YOUR SPACE",
       description: "가구와 소품까지 자연스럽게 어우러지는 배경",
-      src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85",
+      src: "중성 색상으로 꾸민 실내 인테리어 샘플.avif",
       alt: "중성 색상으로 꾸민 실내 인테리어 샘플",
-      isSample: true,
+      isSample: false,
     },
   ],
 };
