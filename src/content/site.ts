@@ -7,10 +7,11 @@ export type SiteImage = {
 };
 export const site = {
   name: "미사새벽도배",
+  representative: "김종철", // 대표자 이름
   address: "경기도 하남시 미사강변한강로348, 1층",
-  phone: "",
+  phone: "010-1234-1234", // 예: 010-1234-5678
   kakaoUrl: "",
-  hours: "",
+  hours: "평일 09:00~18:00", // 예: 평일 09:00~18:00
 };
 
 export const mapUrl = `https://map.naver.com/p/search/${encodeURIComponent(site.address)}`;
