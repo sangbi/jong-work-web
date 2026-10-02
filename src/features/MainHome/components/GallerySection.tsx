@@ -28,9 +28,6 @@ export default function GallerySection() {
             title="어떤 공간을 좋아하세요?"
             description="색감과 분위기에서 시작하는 새로운 공간의 아이디어."
           />
-          <Typography variant="caption" color="text.secondary">
-            분위기 참고용 샘플 이미지입니다.
-          </Typography>
         </Stack>
 
         <Box

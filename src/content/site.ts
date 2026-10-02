@@ -14,12 +14,18 @@ export const site = {
   hours: "평일 09:00~18:00", // 예: 평일 09:00~18:00
 };
 
+export const serviceInfo = {
+  spaces: ["아파트", "오피스텔", "상가"],
+  services: ["도배", "장판"],
+};
+
 export const mapUrl = `https://map.naver.com/p/search/${encodeURIComponent(site.address)}`;
 
 export const navigation = [
   { label: "매장 소개", href: "#about" },
+  { label: "시공 안내", href: "#services" },
   { label: "공간 둘러보기", href: "#gallery" },
-  { label: "오시는 길", href: "#contact" },
+  { label: "상담 안내", href: "#process" },
 ];
 
 export const images = {
@@ -62,18 +68,21 @@ export const images = {
 export const consultationSteps = [
   {
     number: "01",
-    title: "공간 이야기",
-    description: "공간의 크기와 현재 상태, 원하는 분위기를 알려주세요.",
+    title: "공간과 시공 범위",
+    description:
+      "아파트·오피스텔·상가 중 어떤 공간인지, 도배와 장판 중 필요한 작업과 대략적인 면적을 알려주세요.",
   },
   {
     number: "02",
-    title: "취향 찾기",
-    description: "마음에 드는 색감과 질감을 함께 살펴보세요.",
+    title: "현재 상태와 원하는 분위기",
+    description:
+      "벽과 바닥의 현재 사진, 원하는 색감이나 참고 사진이 있다면 함께 준비해주세요.",
   },
   {
     number: "03",
-    title: "일정과 범위",
-    description: "작업 범위와 일정은 매장 상담을 통해 확인해주세요.",
+    title: "희망 일정",
+    description:
+      "원하는 시공 날짜와 입주 예정일, 거주 중인지 빈 공간인지 알려주세요. 가능한 일정은 상담 후 안내드립니다.",
   },
 ];
 // 외부 샘플 URL 또는 '/images/파일명.jpg'를 사용합니다.

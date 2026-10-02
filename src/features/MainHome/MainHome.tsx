@@ -1,5 +1,6 @@
 import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
+import ServicesSection from "./components/ServicesSection";
 import GallerySection from "./components/GallerySection";
 import ProcessSection from "./components/ProcessSection";
 import ContactSection from "./components/ContactSection";
@@ -10,6 +11,7 @@ export default function MainHome() {
     <Box component="main" id="main">
       <HeroSection />
       <AboutSection />
+      <ServicesSection />
       <GallerySection />
       <ProcessSection />
       <ContactSection />

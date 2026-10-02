@@ -59,21 +59,46 @@ export default function HeroSection() {
                 wordBreak: "keep-all",
               }}
             >
-              벽 하나가 바뀌면,
+              벽부터 바닥까지,
               <Box component="span" sx={{ display: "block" }}>
-                일상이{" "}
-                <Box
-                  component="span"
-                  sx={{
-                    color: "primary.main",
-                    background:
-                      "linear-gradient(transparent 80%, #D9E1CD 80%, #D9E1CD 94%, transparent 94%)",
-                  }}
-                >
-                  달라져요.
+                공간을{" "}
+                <Box component="span" sx={{ color: "primary.main" }}>
+                  새롭게.
                 </Box>
               </Box>
             </Typography>
+
+            <Typography
+              color="text.secondary"
+              sx={{ mt: 3, fontSize: { xs: 14, md: 15 } }}
+            >
+              아파트 · 오피스텔 · 상가 | 도배 · 장판
+              <Box component="span" sx={{ display: "block", mt: 0.5 }}>
+                공간에 어울리는 색감과 편안함을 미사새벽도배에서 만나보세요.
+              </Box>
+            </Typography>
+
+            <Stack
+              direction="row"
+              useFlexGap
+              flexWrap="wrap"
+              spacing={1}
+              sx={{ mt: 2.5 }}
+            >
+              {["아파트", "오피스텔", "상가"].map((space) => (
+                <Chip
+                  key={space}
+                  label={space}
+                  size="small"
+                  variant="outlined"
+                  sx={{
+                    borderColor: "divider",
+                    color: "text.secondary",
+                    px: 0.5,
+                  }}
+                />
+              ))}
+            </Stack>
 
             <Typography
               color="text.secondary"

@@ -8,6 +8,7 @@ export default function ProcessSection() {
   return (
     <Box
       component="section"
+      id="process"
       sx={{
         py: { xs: 7, md: 12 },
         borderTop: "1px solid",
@@ -16,9 +17,9 @@ export default function ProcessSection() {
     >
       <Container>
         <SectionHeading
-          eyebrow="LET'S TALK"
-          title="이렇게 이야기를 시작해보세요."
-          description="아직 구체적으로 정하지 않아도 괜찮아요."
+          eyebrow="CONSULTATION GUIDE"
+          title="도배·장판 상담, 이렇게 준비해주세요."
+          description="아래 내용을 알려주시면 공간에 맞는 상담에 도움이 됩니다."
         />
 
         <Box
